@@ -1,0 +1,42 @@
+# Fictional authentication log for demonstration only.
+# IPs are reserved documentation addresses (RFC 5737). No real systems or people.
+# Format: timestamp | ip | username | status
+
+2026-10-15 09:00:50 | 198.51.100.5 | bob | SUCCESS
+2026-10-15 09:01:13 | 198.51.100.23 | admin | FAILED
+2026-10-15 09:03:02 | 192.0.2.10 | alice | SUCCESS
+2026-10-15 09:03:13 | 198.51.100.23 | root | FAILED
+2026-10-15 09:05:13 | 198.51.100.23 | admin | FAILED
+2026-10-15 09:05:41 | 192.0.2.10 | alice | FAILED
+2026-10-15 09:07:13 | 198.51.100.23 | administrator | FAILED
+2026-10-15 09:09:13 | 198.51.100.23 | test | FAILED
+2026-10-15 09:11:13 | 198.51.100.23 | admin | FAILED
+2026-10-15 09:12:50 | 198.51.100.5 | bob | SUCCESS
+2026-10-15 09:99:00 | 198.51.100.5 | bob | SUCCESS
+2026-10-15 09:13:13 | 198.51.100.23 | guest | FAILED
+2026-10-15 09:14:41 | 192.0.2.10 | alice | FAILED
+2026-10-15 09:15:13 | 198.51.100.23 | oracle | FAILED
+2026-10-15 09:17:13 | 198.51.100.23 | admin | FAILED
+2026-10-15 09:20:05 | 203.0.113.44 | svc_backup | FAILED
+2026-10-15 09:21:05 | 203.0.113.44 | svc_backup | FAILED
+2026-10-15 09:22:05 | 203.0.113.44 | svc_backup | FAILED
+2026-10-15 09:23:05 | 203.0.113.44 | svc_backup | FAILED
+2026-10-15 09:23:41 | 192.0.2.10 | alice | FAILED
+2026-10-15 09:24:05 | 203.0.113.44 | svc_backup | FAILED
+2026-10-15 09:26:50 | 192.0.2.150 | carol | SUCCESS
+this line is not a valid log entry
+2026-10-15 09:30:02 | 192.0.2.10 | alice | SUCCESS
+2026-10-15 09:33:50 | 192.0.2.150 | carol | SUCCESS
+2026-10-15 09:35:00 | 198.51.100.5 | bob | FAILED
+2026-10-15 09:40:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:41:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:42:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:43:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:31:00 | 999.1.1.1 | mallory | FAILED
+2026-10-15 09:44:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:45:30 | 192.0.2.77 | jsmith | FAILED
+2026-10-15 09:47:10 | 192.0.2.77 | jsmith | SUCCESS
+2026-10-15 09:51:50 | 198.51.100.5 | dave | SUCCESS
+2026-10-15 09:32:00 | 203.0.113.44 | <script>alert(1)</script> | FAILED
+2026-10-15 09:55:02 | 192.0.2.10 | alice | SUCCESS
+2026-10-15 09:58:50 | 192.0.2.150 | erin | SUCCESS
